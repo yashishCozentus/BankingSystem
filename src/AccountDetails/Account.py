@@ -4,6 +4,7 @@ from CustomerDetails.Customer import Customer
 
 class Account:
     def __init__(self, account_id, customer, balance=0):
+        #adding a comment
         self.account_id = account_id
         self.customer = customer
         self.balance = balance
